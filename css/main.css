@@ -27,6 +27,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    background-color: #ccc;
 }
 *,
 *:before,
@@ -55,4 +56,17 @@ img {
     font-style: italic;
     margin: 0 auto;
     padding: 1rem 5%;
+}
+.lol {
+    float: left;
+    padding: 1em;
+    width: 33.3333%;
+    border-right: 1px solid #ccc;
+}
+.lol:last-child {
+    border: 0;
+}
+.dino {
+    background-color: #fff;
+    overflow: hidden;
 }
